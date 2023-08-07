@@ -7,6 +7,7 @@
 <body>
   <div class="container">
     <h1>Lista de Viajeros</h1>
+    <a href="index.php" class="ver_btn">Inicio</a> 
 
     <!-- Formulario de búsqueda -->
     <form action="" method="post">
@@ -15,7 +16,7 @@
       <button type="submit">Buscar</button>
     </form>
 
-    git commit -m "papas"
+  
 
     <table>
       <thead>
@@ -33,6 +34,8 @@
           <th>Fecha de Salida</th>
           <th>Fecha de Llegada</th>
           <th>Acciones</th> 
+          <th>Nuevo Vuelo</th>
+
         </tr>
       </thead>
       <tbody>
@@ -77,6 +80,7 @@
             echo "<a href='eliminar.php?id=".$row['id']."'>Eliminar</a> | ";
             echo "<a href='actualizar.php?id=".$row['id']."'>Actualizar</a>";
             echo "</td>";
+            echo "<td><a href='nuevo_reg.php?id=".$row['id']."'>+</a></td>";
             echo "</tr>";
           }
         } else {

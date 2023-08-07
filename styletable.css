@@ -51,4 +51,17 @@ table {
   form button:hover {
     background-color: #45a049;
   }
+
+  .ver_btn {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px; /* Hace que el botón sea redondeado */
+    margin-bottom: 20px;
+  }
   
+  .ver_btn:hover {
+    background-color: darkred;
+  }

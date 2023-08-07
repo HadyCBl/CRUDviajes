@@ -7,7 +7,7 @@
 <body>
 <div class="container">
     <h1>Formulario de Viajero</h1>
-    <a href="ver_viajeros.php" class="ver_btn">Ver Viajeros</a> 
+    <a href="mostrar.php" class="ver_btn">Ver Viajeros</a> 
     <h1>
      
     </h1>

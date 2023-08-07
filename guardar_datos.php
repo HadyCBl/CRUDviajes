@@ -27,7 +27,7 @@ if ($conn->connect_error) {
           VALUES ('$nombre', '$segundo_nombre', '$apellido', '$segundo_apellido', '$telefono', '$nacionalidad', '$identificacion_personal', '$nombre_viaje', '$origen_vuelo', '$destino_vuelo', '$fecha_salida', '$fecha_llegada')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "Datos almacenados correctamente.";
+ 
 
   header("Location: mostrar.php");
   exit; // Asegura que no se ejecuten más instrucciones después de la redirección
