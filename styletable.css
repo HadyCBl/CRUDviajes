@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Estilo general para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  table td, table th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo para el encabezado de la tabla */
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Estilo para las filas alternas de la tabla */
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para el formulario de búsqueda */
+  form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  form label, form input, form button {
+    margin: 5px;
+  }
+  
+  form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
